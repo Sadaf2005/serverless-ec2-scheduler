@@ -115,14 +115,14 @@ Now again , go to the Lambda console and then test the code.
 ![a26](https://github.com/itz-mathesh/serverless-ec2-scheduler/assets/144098846/b6e1a8f8-9a2b-4d8d-aef2-d9059aba2928)
 
 
-3. Now we Created  alambda function for Starting Instance.
+3. Now we Created  a lambda function for Starting Instance.
 4. We have to Reapeat the same steps again to Create a Lambda function for Stopping Instance , Keep your lambda function name as "Stop-EC2-demo".
 5. The only changes we have to make are to replace the default code with the 'stop-ec2-instance.py' code and attach the policy we created for stopping instances to the role of this Lambda function.
 
 
 ![a27](https://github.com/itz-mathesh/serverless-ec2-scheduler/assets/144098846/0752d20d-bfe3-45a9-9c63-b9c0111ab132)
 
-6. As demonstrated above, when I test my Python code, it runs successfully and stops the instance.
+6. As demonstrated above, when I test my JavaScipt code, it runs successfully and stops the instance.
 7. Now, we are ready to proceed and create schedules for this functions.
 
 ### Step 5 :
